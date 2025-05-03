@@ -4753,6 +4753,13 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   position: relative;
   z-index: 9;
 }
+.mob-nav-item-hidden {
+  margin-bottom: 25px;
+  line-height: 1;
+  position: relative;
+  z-index: 9;
+  display: none;
+}
 .mob-nav-item:last-of-type {
   margin-bottom: 0;
 }
