@@ -156,9 +156,9 @@
 
 			htmlBar += '<div class="pjAcceptCookieBarShell">';
 			htmlBar += '<form action="#" method="post">';
-			htmlBar += '<p>Для полноценной работы сайта используются файлы cookie. Закрывая это сообщение вы соглашаетесь на хранение и использование cookie на вашем устройстве.</p>';
+			htmlBar += '<p>Cookies are used for the full functionality of the site. By closing this message, you agree to the storage and use of cookies on your device.</p>';
 			htmlBar += '<div class="pjAcceptCookieBarActions">';
-			htmlBar += '<button type="button" class="pjAcceptCookieBarBtn">Понятно</button>';
+			htmlBar += '<button type="button" class="pjAcceptCookieBarBtn">Agree</button>';
 			htmlBar += '</div>';
 			htmlBar += '</form>';
 			htmlBar += '</div>';

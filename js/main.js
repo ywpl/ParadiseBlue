@@ -234,7 +234,7 @@ $(document).ready(function () {
 	Tel.forEach(function(item){
 		item.addEventListener("click", function(){
 			this.style = "display: none";
-			this.insertAdjacentHTML("afterend", '<a href="tel:+79181639644"> +7(918) 163 96 44</a>');
+			this.insertAdjacentHTML("afterend", '<a href="tel:+61419516972"> +61 419 516 972</a>');
 		});
 	});
 

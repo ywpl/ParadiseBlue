@@ -2742,6 +2742,27 @@ svg.social-icons__vib {
        -o-transform: scale(1.25);
           transform: scale(1.25);
 }
+.facebook-h-a {
+  background-color: var(--brand-blue);
+}
+.facebook-h-a:hover {
+  background-color: #4d76a1;
+}
+.facebook-head {
+  position: relative;
+  top: 1px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+.facebook-head:hover {
+  -webkit-transform: scale(1.25);
+     -moz-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+       -o-transform: scale(1.25);
+          transform: scale(1.25);
+}
 .whatsapp-h-a {
   background-color: var(--brand-blue);
 }
