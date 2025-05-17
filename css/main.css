@@ -10640,6 +10640,7 @@ span.red {
 }
 @media (min-width: 1200px) {
   .contacts-desc {
+    padding-right: 0;
     margin-bottom: 30px;
   }
 }
