@@ -1,5 +1,4 @@
 $(document).ready(function () {
-	//Плагин owlCarusel (Отзывы)
 	$(".reviews__clients-carousel").owlCarousel({
 		items: 1,
 		nav: true,
@@ -13,7 +12,6 @@ $(document).ready(function () {
 		autoplayTimeout: 7000,
 		autoplayHoverPause: true,
 	});
-	//Плагин owlCarusel (страница "Отзывы")
 	$(".reviews-page__clients-carousel").owlCarousel({
 		items: 1,
 		nav: true,
@@ -28,7 +26,6 @@ $(document).ready(function () {
 		autoplayHoverPause: true,
 	});
 
-	//Плагин owlCarusel (Блог)
 	$(".blog-section__carousel").owlCarousel({
 		items: 1,
 		nav: true,
@@ -43,7 +40,6 @@ $(document).ready(function () {
 		autoplayHoverPause: true,
 	});
 
-	//Плагин owlCarusel (Маршруты)
 	$(".programs__carousel").owlCarousel({
 		items: 1,
 		nav: true,
