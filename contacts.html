@@ -204,7 +204,43 @@
 								<img src="./img/fake-map.jpg" alt="Map of our boat parking lot">
 							</div>
 						</div>
-					</div>	
+					</div>
+					<div class="contacts-form-col" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">
+						<div class="contacts-form__title">
+							<h3 class="programs__title-3">Feedback</h3>
+						</div>
+						<form class="contact-form" autocomplete="off">
+							<div class="form-item-row name-row">
+								<span class="fake-placeholder">Name<span class="required">*</span></span>
+								<input type="text" class="form-input" name="userName">
+							</div>
+							<div class="form-item-row email-row">
+								<span class="fake-placeholder">Email<span class="required">*</span></span>
+								<input type="email" class="form-input" name="email">
+							</div>
+							<div class="form-item-row theme-row">
+								<span class="fake-placeholder">Subject</span>
+								<input type="text" class="form-input" name="subject">
+							</div>
+							<div class="form-item-row textarea-row">
+								<div class="contacts-form__char-counter transp-count">Осталось&nbsp;символов:&nbsp;<span id="form-char-counter"></span></div>
+								<span class="fake-placeholder fp-msg">Message<span class="required">*</span></span>
+								<textarea id="form-comment" class="form-input form-textarea" name="message" maxlength="480"></textarea>
+							</div>
+							<div class="flex-row">
+								<div class="checkbox-row">
+									<input type="checkbox" class="form-checkbox" name="checkbox">
+									<label for="checkbox" class="agreement-text">Согласие с <a href="terms.html" target="_blank">политикой конфиденциальности</a></label>
+								</div>
+								<div class="form-submit-row">
+									<div class="form-btn-row">
+										<input type="submit" id="submit-btn" class="btn" value="Send">
+										<input type="reset" id="reset-btn" class="btn btn--form-reset" value="Reset">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>		
 				</div>
 			</div>
 		</section>
