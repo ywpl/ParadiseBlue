@@ -158,7 +158,7 @@
 			htmlBar += '<form action="#" method="post">';
 			htmlBar += '<p>Cookies are used for the full functionality of the site. By closing this message, you agree to the storage and use of cookies on your device.</p>';
 			htmlBar += '<div class="pjAcceptCookieBarActions">';
-			htmlBar += '<button type="button" class="pjAcceptCookieBarBtn">Agree</button>';
+			htmlBar += '<button type="button" class="pjAcceptCookieBarBtn">Close</button>';
 			htmlBar += '</div>';
 			htmlBar += '</form>';
 			htmlBar += '</div>';
