@@ -1,4 +1,4 @@
-// jQuery onePageNav plugin
+// Подключение точек пагинации справа page-nav
 	$('#page-nav').onePageNav({
 		currentClass: 'active',
 		changeHash: false,

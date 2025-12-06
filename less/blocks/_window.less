@@ -1,0 +1,76 @@
+.window-bg-img {
+	margin: 0 auto;
+	display: none;
+	overflow: hidden;
+	position: relative;
+	width: 100vw;
+	&::before {
+		display: block;
+		content: "";
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: -50%;
+		background-color: #00a8c5;
+		transform: translateX(-50%);
+		z-index: -10;
+	}
+	//Для планшета
+	@media (min-width: 768px) {
+		display: block;
+		height: 35vh;
+		background-image: url("../img/body-bg-img-02.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	//Для десктопа
+	@media (min-width: 1200px) {
+		height: 50vh;
+	}
+	//Для десктопа
+	@media (min-width: 1600px) {
+		height: 55vh;
+	}
+	//Для десктопа
+	@media (min-width: 3840px) {
+		height: 50vh;
+	}
+	img {
+		display: none;
+		position: fixed;
+		z-index: -9;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		height: 100vh;
+		object-fit: cover;
+		transform: translate(-50%, -50%);
+	}
+}
+.window-bg-img.window-bg-img--low {
+	//Для планшета
+	@media (min-width: 768px) {
+		display: none;
+	}
+	//Для десктопа
+	@media (min-width: 1200px) {
+		display: block;
+		height: 50vh;
+		background-image: url("../img/body-bg-img-2.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	//Для десктопа
+	@media (min-width: 1600px) {
+		height: 55vh;
+	}
+	//Для десктопа
+	@media (min-width: 3840px) {
+		height: 50vh;
+	}
+}

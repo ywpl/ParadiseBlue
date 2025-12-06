@@ -303,6 +303,8 @@ body {
     opacity: 1;
   }
 }
+/*---Стили для боковой навигации по разделам страницы*/
+/*--Планка навигации--*/
 #page-nav {
   display: none;
 }
@@ -320,6 +322,8 @@ body {
             transform: translateY(-50%);
   }
 }
+/*--/Планка навигации--*/
+/*--Ссылки (точки) на разделы--*/
 #page-nav li {
   width: 15px;
   height: 15px;
@@ -349,6 +353,9 @@ body {
 #page-nav li.active-nav {
   background-color: #f17c1c;
 }
+/*--/Ссылки (точки) на разделы--*/
+/*---/Стили для боковой навигации по разделам страницы*/
+/*--Затемняющий слой вокруг плашки мобильного меню--*/
 #overlay {
   position: fixed;
   padding: 0;
@@ -394,6 +401,7 @@ body {
        -o-transform: translateX(0);
           transform: translateX(0);
 }
+/*--/Затемняющий слой вокруг плашки мобильного меню--*/
 a,
 a:hover {
   text-decoration: none;
@@ -577,6 +585,7 @@ button {
   cursor: pointer;
   background-color: transparent;
 }
+/*--Контейнер--*/
 .container {
   width: 100%;
   max-width: 320px;
@@ -1601,6 +1610,7 @@ svg.social-icons__vib {
   -webkit-filter: drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 8px rgba(255, 0, 255, 0.15)) drop-shadow(2px 2px 5px rgba(0, 0, 255, 0.4)) drop-shadow(-2px -2px 5px rgba(131, 170, 241, 0.4));
           filter: drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 8px rgba(255, 0, 255, 0.15)) drop-shadow(2px 2px 5px rgba(0, 0, 255, 0.4)) drop-shadow(-2px -2px 5px rgba(131, 170, 241, 0.4));
 }
+/*Кнопка наверх*/
 #back2Top {
   overflow: hidden;
   z-index: 7;
@@ -1822,6 +1832,7 @@ svg.social-icons__vib {
     margin-top: -50px;
   }
 }
+/* --- Модалка с акцией --- */
 #popup {
   position: fixed;
   top: 0;
@@ -1841,6 +1852,7 @@ svg.social-icons__vib {
      -moz-animation: animaciya 1s 8s forwards;
        -o-animation: animaciya 1s 8s forwards;
           animation: animaciya 1s 8s forwards;
+  /* 3s - это количество секунд по истечении которых появляется сообщение */
 }
 #popup p {
   text-align: center;
@@ -1920,12 +1932,14 @@ svg.social-icons__vib {
 #popup figcaption,
 #popup figure:before {
   max-width: 550px;
+  /* максимальная ширина */
   margin: 0 auto;
   border-style: solid;
   border-color: #800000;
   background: #ff0000;
 }
 #popup figure:before {
+  /* стиль кнопки "закрыть" */
   content: "\2716";
   font-size: 20px;
   line-height: 1;
@@ -2042,6 +2056,7 @@ svg.social-icons__vib {
   font-size: 111%;
   cursor: pointer;
 }
+/* --- /Модалка с акцией --- */
 .hidden {
   display: none !important;
   position: fixed;
@@ -2051,6 +2066,7 @@ svg.social-icons__vib {
   margin: 0 auto 35px;
   text-align: center;
 }
+/*Анимированный якорь прокрутки вниз*/
 .arrow-down {
   display: none;
   margin: 0 auto;
@@ -2246,10 +2262,12 @@ svg.social-icons__vib {
     min-height: calc(100vh - 261px);
   }
 }
+/*----- Тень для кнопки чата-----*/
 #supportTrigger {
   -webkit-filter: drop-shadow(0 2px 3px rgba(1, 13, 27, 0.6));
           filter: drop-shadow(0 2px 3px rgba(1, 13, 27, 0.6));
 }
+/*----- /Тень для кнопки чата-----*/
 .header {
   margin: 0 auto;
   max-width: 100%;
@@ -2666,6 +2684,7 @@ svg.social-icons__vib {
   width: 19px;
   height: 19px;
 }
+/*--Универсальные круглые иконки контактов--*/
 .insta-h-a {
   background-color: var(--brand-blue);
   position: relative;
@@ -5617,6 +5636,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     height: 320px;
   }
 }
+/*----- Водянной знак для недоступной программы -----*/
 .program-unavailable {
   position: relative;
 }
@@ -5633,7 +5653,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   pointer-events: none;
 }
 .program-unavailable::after {
-  content: "TEMPORARILY UNAVAILABLE:(";
+  content: "ВРЕМЕННО НЕДОСТУПНО:(";
   white-space: pre;
   position: absolute;
   width: -webkit-max-content;
@@ -5690,6 +5710,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     font-size: 48px;
   }
 }
+/*----- /Водянной знак для недоступной программы -----*/
 .programs__program-card-content-text {
   padding: 0 5px;
 }
@@ -6786,6 +6807,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     content: url("../img/sky-layer.png");
   }
 }
+/*----- Плашка с контактами раздела "О катере" -----*/
 .yacht__contacts {
   margin-bottom: 30px;
   display: -webkit-box;
@@ -6857,6 +6879,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   font-size: 32px;
   letter-spacing: 1.5px;
 }
+/*----- /Плашка с контактами раздела "О катере" -----*/
 .btn.btn-fire {
   border: 4px solid #970000;
   background: #ff7728;
@@ -6865,6 +6888,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   background: -o-linear-gradient(300deg, #ed3f3f 0%, #ff7728 50%, #970000 100%);
   background: linear-gradient(150deg, #ed3f3f 0%, #ff7728 50%, #970000 100%);
 }
+/*----- Модификатор социальных иконок раздела "О катере" -----*/
 .social-icons__row.social-icons__row--yacht {
   margin-bottom: 30px;
   width: 100%;
@@ -6886,6 +6910,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
 .social-icons__row.social-icons__row--yacht li:last-child {
   margin-right: 0;
 }
+/*----- /Модификатор социальных иконок раздела "О катере" -----*/
 .yacht__outro {
   text-align: center;
   font-family: serif;
@@ -7318,6 +7343,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   color: var(--brand-blue);
   text-shadow: 0px 0px 2px #fff, 0px 0px 3px #fff;
 }
+/*----- Видео для Fancybox (из папки video)-----*/
 .video.video--fhd {
   display: none;
 }
@@ -7334,6 +7360,8 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     display: none;
   }
 }
+/*----- /Видео для Fancybox (из папки video)-----*/
+/*----- Окно превью блога-----*/
 .blog-section__row {
   margin: 0 auto;
   display: none;
@@ -9373,9 +9401,11 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     font-size: 16px;
   }
 }
+/* Убираем стандартный маркер Chrome */
 details summary::-webkit-details-marker {
   display: none;
 }
+/* Убираем стандартный маркер Firefox */
 details > summary {
   margin: 0 auto;
   list-style: none;
@@ -10640,7 +10670,6 @@ span.red {
 }
 @media (min-width: 1200px) {
   .contacts-desc {
-    padding-right: 0;
     margin-bottom: 30px;
   }
 }
@@ -10897,6 +10926,7 @@ span.red {
     display: none;
   }
 }
+/*---Форма обратной связи---*/
 .contacts-form-col {
   width: 100%;
   z-index: 1;
@@ -11047,9 +11077,11 @@ span.red {
     left: 5px;
   }
 }
+/*--Костыль textarea для PP (почему-то не срабатывает корректно last-of-type)--*/
 .fp-msg {
   top: -2px;
 }
+/*--/Костыль textarea для PP (почему-то не срабатывает корректно last-of-type)--*/
 span.required {
   font-weight: 400;
   color: #ea736d;
@@ -11600,6 +11632,7 @@ label.error {
 .contacts-col .social-ic-row .icon-item:last-child {
   margin-right: 0;
 }
+/*---/Форма обратной связи---*/
 .contacts-page {
   margin: 0 auto;
   position: relative;
@@ -12254,6 +12287,7 @@ footer .insta-h-a svg {
     padding: 0 0 45px;
   }
 }
+/*--Контейнер--*/
 .blog-container {
   width: 100%;
   max-width: 428px;
@@ -12915,6 +12949,43 @@ footer .insta-h-a svg {
 }
 .share-mob li:last-of-type {
   margin: 0 !important;
+}
+/*--- Картинки анонсов статей ---*/
+/*Статья 6*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .blog-prev-img-6 {
+    content: url("../img/articles/bounty-leda/big/leda_bounty.jpg");
+  }
+}
+/*Статья 5*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .blog-prev-img-5 {
+    content: url("../img/articles/balaklava/balaklava-nazukina.jpg");
+  }
+}
+/*Статья 4*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .blog-prev-img-4 {
+    content: url("../img/articles/top-clear-water/big/mus-aya-big.jpg");
+  }
+}
+/*Статья 3*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .blog-prev-img-3 {
+    content: url("../img/articles/top-clear-water/big/grot-dianu-big.jpg");
+  }
+}
+/*Статья 2*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .blog-prev-img-2 {
+    content: url("../img/articles/top-clear-water/big/bounty-big.jpg");
+  }
+}
+/*Статья 1*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .blog-prev-img-1 {
+    content: url("../img/articles/top-clear-water/big/tropical-water-big.jpg");
+  }
 }
 .media-page {
   margin: 0 auto;
@@ -13990,6 +14061,7 @@ footer .insta-h-a svg {
   color: red;
   text-transform: uppercase;
 }
+/*----- Youtube-----*/
 .youtube-article {
   width: 100%;
   height: 162px;
@@ -14975,3 +15047,4 @@ footer .insta-h-a svg {
     font-size: 22px;
   }
 }
+/*# sourceMappingURL=main.css.map */
